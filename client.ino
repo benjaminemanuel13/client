@@ -22,7 +22,7 @@ void loop() {
     //Got Command
     int check = strcmp(command, "GETWIFIX");
 
-    if(check > 0)
+    if(check == 0)
     {
       //Send Wifi Details
       WriteWifiList();
