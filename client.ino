@@ -58,6 +58,8 @@ void loop() {
 
       char pwd = malloc(sizeof(char) * actlen);
 
+      Serial.println("Please enter the Password you wish to use");
+
       for(int i = 0; i < actlen; i++)
       {
         pwd[i] = Serial.read();
