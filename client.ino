@@ -40,7 +40,7 @@ void loop() {
 
       int actlen = strtol(len, NULL, 10);
       
-      char* ssid = malloc(sizeof(int) * actlen);
+      char* ssid = malloc(sizeof(char) * actlen);
 
       for(int i = 0; i < actlen; i++)
       {
@@ -56,7 +56,7 @@ void loop() {
 
       actlen = strtol(len, NULL, 10);
 
-      char pwd = malloc(sizeof(int) * actlen);
+      char pwd = malloc(sizeof(char) * actlen);
 
       for(int i = 0; i < actlen; i++)
       {
